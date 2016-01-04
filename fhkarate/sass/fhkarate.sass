@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700|PT+Sans+Narrow:400,700|PT+Serif:400,400italic,700,700italic|PT+Serif+Caption:400,400italic);
+
+@import "base";
+@import "variables";
+@import "navigation";
+
+/* Homepage Base */
+html,
+body 
+	color: #006699;
+	font-size: 16px; 
+	font-family: 'PT Sans', 'PT Sans Caption', 'PT Sans Narrow', sans-serif;
+
+
+body 
+	padding-top: 70px;
+
+h1, h2, h3, h4, h5, h6 
+	font-family: 'PT Sans Caption', sans-serif;
+
+.jumbotron .h1, .jumbotron h1
+    font-size: 45px;
+	   
+h1 small 
+	color: #006699; 
+	font-family: 'PT Sans Narrow', sans-serif;
+		 
+a.list-group-item, button.list-group-item 
+    color: #006699;
+
+
+.blog-element { display: block; height: 200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; background-size: cover; }
+.blog-element a { color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.5) }
+
+///*
+//.second-row-padding:nth-child(2) { padding-right: 0; }
+//.second-row-padding:nth-child(3) { padding-left: 0; }
+//.third-row-padding { padding: 0; }
+//.third-row-padding:nth-child(4) { padding-left: 15px; }
+//.third-row-padding:last-child { padding-right: 15px; }
+//*/
+
+.no-margin { margin: 0; }
+.blog-item { padding: 0; }
+
+/* header search form ================== */
+.search-form-container { display: none; position: fixed; top: 50px; left: 0; right: 0; background-color: rgba(0,0,0,.35); padding: 20px; z-index: 2; }
+.open-search a { font-size: 0; width: 30px; position: relative; }
+.open-search a:after  
+	display: block;
+	position: absolute; 
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content:"\e003";
+	font-size: 20px;
+	left: 0;
+	top: 50%;
+	line-height: 1em;
+	margin-top: -0.5em;
+
+
+#bfooter 
+	background-color: rgba(0,102,153,0.8);
+	color: white;
+	
+
+
+#footer 
+	background-color: #006699;
+	color: white;
+
+
+#footer a 
+	background-color: #006699;
+	color: white;
+
+
+.jumbotron 
+	background-color: rgba(0,102,153,0);
+	
+.navbar
+	background-color: rgba(0,102,153,1);
+	color: white;
+
+hr 
+	margin: 0;
+	background-color: rgba(0,102,153,0.2);
+
+
+#social img
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 7px;
+
+	
+.navbar-default 
+  background-color: rgba(0,102,153,1);
+  border-color: #e7e7e7;
+
+.navbar-default .navbar-brand 
+  color: white;
+	
+	
+.navbar-default .navbar-text 
+  color: white;
+
+.navbar-default .navbar-nav > li > a 
+  color: white;
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus 
+  color: black;
+
+  
+navbar-default .navbar-toggle 
+  border-color: rgba(0,102,153,.3);
+
+  
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus 
+  background-color: rgba(0,102,153,.3);
+
+  
+.navbar-default .navbar-toggle .icon-bar 
+  background-color: #888;
+
+  
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form 
+  border-color: #e7e7e7;
+
+  
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus 
+  color: white;
+  background-color: rgba(0,102,153,.3);

@@ -1,0 +1,55 @@
+/*
+Theme Name: FH Karate
+Theme URI: http://koehler-welt.de/wordpress431
+Author: Jens Koehler
+Author URI: http://koehler-welt.de
+Description: Testtheme für die fh-karate.de Webpräsenz
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: fh-karate, Dirk Klasen, Ralph Nuss
+Text Domain: fhkarate
+
+*/
+
+/* @charset "utf-8"; */
+@import url (https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js);
+
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700|PT+Sans+Narrow:400,700|PT+Serif:400,400italic,700,700italic|PT+Serif+Caption:400,400italic);
+
+body { padding-top: 70px;
+	   color: #006699;
+	   font-size: 16px; 
+	   font-family: 'PT Sans', 'PT Sans Caption', 'PT Sans Narrow', sans-serif; }
+
+titel { text-transform:uppercase;
+		
+			
+}
+	   
+p { 
+		color: #006699; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans Caption', sans-serif;
+	color: #006699;
+}
+	   
+h1 small { color: #006699; 
+		   font-family: 'PT Sans Narrow', sans-serif;}
+		 
+.navbar-default, .navbar-brand {
+	background-color: #0099E5;
+	border-color: #00557F;
+}
+
+.panel-default > .panel-heading {
+    color: #FFF;
+    background-color: #0099E5;
+    border-color: #00557F; }
+	
+a.list-group-item, button.list-group-item {
+    color: #006699;
+}
